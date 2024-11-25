@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Auto-Garage Management System</h1>
+    <form id="searchForm">
+        <input type="text" id="searchField" placeholder="Search by Name, Order Number, or Phone Number">
+        <button type="button" onclick="openSearchPopup()">Search</button>
+    </form>
+    <table id="orderTable">
+        <thead>
+            <tr>
+                <th>Order Number</th>
+                <th>Customer Name</th>
+                <th>Phone Number</th>
+                <th>Vehicle Details</th>
+                <th>Service Type</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic content will be added here -->
+        </tbody>
+    </table>
+    <div class="buttons">
+        <button onclick="openPopup('add-order.html')">Add New Order</button>
+        <button onclick="openPopup('manage-order.html')">Manage Order</button>
+    </div>
+</body>
+</html>

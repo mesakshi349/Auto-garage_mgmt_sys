@@ -1,0 +1,15 @@
+auto_garage/
+├── app/
+│   ├── templates/        # HTML files
+│   ├── static/           # CSS, JS, images
+│   ├── __init__.py       # Flask app initialization
+│   ├── routes.py         # Application routes
+│   ├── models.py         # Database models
+│   └── forms.py          # Flask-WTF forms
+├── migrations/           # DB migrations
+├── config.py             # Configuration (DB credentials)
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+├── LICENSE               # License file
+└── run.py                # App entry point
+

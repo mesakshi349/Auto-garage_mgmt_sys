@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Manage Orders</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Manage Orders</h1>
+        <form id="manageOrdersForm">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order Number</th>
+                        <th>Customer Name</th>
+                        <th>Phone Number</th>
+                        <th>Vehicle Details</th>
+                        <th>Service Type</th>
+                        <th>Assigned Technician</th>
+                        <th>Status</th>
+                        <th>Payment Status</th>
+                        <th>Total Cost</th>
+                        <th>Remarks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" value="123"></td>
+                        <td><input type="text" value="John Doe"></td>
+                        <td><input type="text" value="123-456-7890"></td>
+                        <td><input type="text" value="Toyota Corolla (2020)"></td>
+                        <td><input type="text" value="Oil Change"></td>
+                        <td><input type="text" value="Mike Smith"></td>
+                        <td>
+                            <select>
+                                <option>In Progress</option>
+                                <option>Completed</option>
+                                <option>Waiting Parts</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Pending</option>
+                                <option>Paid</option>
+                            </select>
+                        </td>
+                        <td><input type="text" value="$100"></td>
+                        <td><input type="text" value="N/A"></td>
+                    </tr>
+                    <!-- Add more rows dynamically -->
+                </tbody>
+            </table>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+</body>
+</html>
